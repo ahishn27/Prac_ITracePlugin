@@ -8,5 +8,7 @@ namespace ITraceServicePlugin
 {
     public class Class1
     {
+
+
     }
 }
