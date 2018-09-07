@@ -9,10 +9,7 @@ using Microsoft.Xrm.Sdk;
 namespace ITraceServicePlugin
 {
     public class TracePlugin : IPlugin
-        
     {
-     
-
         public void Execute(IServiceProvider serviceProvider)
         {
                  //Tracing Service
@@ -83,17 +80,9 @@ namespace ITraceServicePlugin
                     else
 
                     {
-
-                        tracingservice.Trace("Phone number was empty, Contact record was not created.");
+                          tracingservice.Trace("Phone number was empty, Contact record was not created.");
 
                     }
-
-
-
-
-
-
-
 
                 }
             }
@@ -102,10 +91,6 @@ namespace ITraceServicePlugin
                 tracingservice.Trace("{0}", ex.ToString());
                 throw;
             }
-
-
-
-
         }
     }
 }
